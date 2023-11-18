@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f8efef;
+}
+
+#container{
+    height: 10vh;
+    width : auto ;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+#startTimer{
+    background: rgb(231, 247, 2) ;
+    border: none;
+    color: #0f0e0e !important;
+    font-size: 18px!important;
+    padding: 10px  40px!important;
+    border-radius: 180px;
+    cursor: pointer;
+    height: 5vh;
+}
+/* well come to my css i am shivani jaiswal */
+/* hover effect */
+#startTimer:hover{
+    background:rgb(37, 147, 7);
+    color: #f8f1f5 !important;
+}
+
+#para{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+#heading{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(245, 17, 154);
+    color: white;
+    height: 3vh;
+    width: 10vw;
+    margin: auto;
+    padding: 5px  40px!important;
+    border-radius: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+/* hover effcet of heading */
+#heading:hover{
+    background:rgb(49, 7, 147);
+    color: #f8f1f5 !important;
+}
+
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.timer {
+    font-size: 55px;
+}
+
+.timer-ended {
+    color: red;
+}
+
+.time-left {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+}
+
+.control-button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.stop-button {
+    background-color: red;
+    color: white;
+}
+
+.stop-button:hover {
+    background-color: rgb(205, 1, 1);
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: rgb(205, 1, 1);
+}
+
+#heading {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin: 20px;
+    margin: auto;
+}
